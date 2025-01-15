@@ -1,4 +1,4 @@
-/* Global styles for the page */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
   margin: 0;
 }
 
-/* Container for the signup form */
+
 .signup-container {
   background-color: #fff;
   padding: 20px;
@@ -31,19 +31,19 @@ body {
   color: #333;
 }
 
-/* Form styles */
+
 .signup-form {
   display: flex;
   flex-direction: column;
 }
 
-/* Grouping of each form input */
+
 .form-group {
   margin-bottom: 15px;
   text-align: left;
 }
 
-/* Input field styles */
+
 .form-input {
   width: 100%;
   padding: 10px;
@@ -60,14 +60,14 @@ body {
   outline: none;
 }
 
-/* Label styles */
+
 .form-label {
   font-size: 16px;
   color: #555;
   font-weight: bold;
 }
 
-/* Button style */
+
 .form-button {
   padding: 12px;
   font-size: 16px;
@@ -83,7 +83,7 @@ body {
   background-color: #0056b3;
 }
 
-/* Link styling */
+
 .form-link {
   margin-top: 10px;
   font-size: 14px;
