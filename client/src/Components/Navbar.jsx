@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link for navigation
-import './Navbar.css'
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
@@ -16,6 +16,11 @@ const Navbar = () => {
             Login
           </Link>
         </li>
+        {/*<li>
+          <Link to="/media" className="navbar-link">
+            Media
+          </Link>
+        </li>*/}
       </ul>
     </nav>
   );

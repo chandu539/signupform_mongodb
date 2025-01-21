@@ -1,0 +1,20 @@
+.media-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .media-container input {
+    margin: 10px;
+  }
+  
+  .media-container button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .media-container img {
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  

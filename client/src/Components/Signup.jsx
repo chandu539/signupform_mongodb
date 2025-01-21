@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom"; 
 import axios from "axios";
 import "./Signup.css";
 
@@ -10,7 +10,12 @@ const Signup = () => {
     password: "",
   });
 
-  const navigate = useNavigate(); // Use useNavigate for navigation
+  const navigate = useNavigate(); 
+
+
+  const handleFileChange = (e) => {
+    setFile(e.target.files[0]); 
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -23,7 +28,7 @@ const Signup = () => {
       const result = await axios.post("http://localhost:3001/signup", formData);
       if (result.status === 201) {
         console.log("User created successfully");
-        navigate("/login"); // Redirect to the login page
+        navigate("/login"); 
         setFormData({
           name: "",
           email: "",

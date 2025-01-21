@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Login.css';
+import Media from './Media';
+
 
 const Login = () => {
   const [formData, setFormData] = useState({ email: '', password: '' });
@@ -84,6 +86,7 @@ const Login = () => {
         <div className="welcome-message">
           <h2>Welcome, {userInfo.name}!</h2>
           <p>Email: {userInfo.email}</p>
+          <Media/>
           <button className="form-button" onClick={handleLogout}>Logout</button>
         </div>
       )}
